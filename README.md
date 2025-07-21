@@ -1,36 +1,3 @@
-<style>
-  /* 全局字体与间距 */
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.75;           /* 行间距1.75倍 */
-    color: #333
-    margin: 0 auto;              /* 内容居中 */
-  }
-  
-  /* 段间距 */
-  p, ul, ol, blockquote {
-    margin-bottom: 1.25em;        /* 段落/列表/引用间距 */
-  }
-  
-  
-  /* 代码块 */
-  pre {
-    background-color:rgb(146, 150, 153);
-    border-radius: 6px;
-    padding: 16px;
-    overflow: auto;
-    line-height: 1.45;           /* 代码行距 */
-  }
-  
-  /* 行内代码 */
-  code {
-    background: rgb(146, 150, 153);
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-family: 'Fira Code', monospace;
-  }
-</style>
-
 # **PCL-Reasoner-V1模型**
 
 ## 模型概览
