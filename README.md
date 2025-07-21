@@ -275,7 +275,7 @@ tail -f path/to/log/worker_127.log
 | top\_k         | 40                                          |
 | top\_p         | 0.95                                        |
 | max\_tokens    | 129024                                      |
-| chat\_template |` ./pcl_reasoner_v1/eval/am_thinking.jinja` |
+| chat\_template |`./pcl_reasoner_v1/eval/am_thinking.jinja` |
 
 我们在AIME24/AIME25评测结果详见下表数据。为确保评估准确性，我们采用Avg@32指标（平均32次采样）进行了评测：
 
@@ -285,7 +285,6 @@ tail -f path/to/log/worker_127.log
 <style>
   table { border-collapse: collapse; width: 100%; margin-left: auto;margin-right: auto;}
   th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-  th { background-color: #f2f2f2; }
 </style>
 
 <!-- 表格主体 -->
@@ -329,7 +328,7 @@ tail -f path/to/log/worker_127.log
   </tr>
   <!-- 分隔行 -->
   <tr>
-    <td colspan="4" style="background-color: #f8f8f8;"></td>
+    <td colspan="4"></td>
   </tr>
   <!-- 合并行表头 32B -->
   <tr>
@@ -376,7 +375,6 @@ tail -f path/to/log/worker_127.log
 <style>
   table { border-collapse: collapse; width: 100%; margin-left: auto;margin-right: auto;}
   th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-  th { background-color: #f2f2f2; }
 </style>
 
 <table>
