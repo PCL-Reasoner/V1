@@ -3,8 +3,7 @@
 ## Model Overview  
 We release ​**PCL-Reasoner-V1**​, a model trained based on ​**Qwen2.5-32B-Base**​ and undergoes high-performance supervised fine-tuning based on the ​**MindSpore framework**​ and ​**Ascend hardware**. After fine-tuning, the model demonstrates significant improvements in mathematical reasoning capabilities. PCL-Reasoner-V1 achieves 85.7% and 84.2% respectively on AIME 24 and AIME 25, which position PCL-Reasoner-V1 among the top-tier models in the 32B parameter class.  
 
-We have fully the open-sourced model weights, dataset and training code. 
-PCL-Reasoner-V1 not only represents a leading 32B mathematical reasoning model but also provides developers with valuable expertise in domain-specific supervised fine-tuning and post-training solutions. Follow the tutorial below to deploy and explore advanced post-training methodologies!  
+We have fully open-sourced the model weights, dataset and training code. Follow the tutorial below to deploy and explore post-training!  
 
 ![eval_results](images/README/eval_results.png)  
 
