@@ -349,7 +349,7 @@ We analyzed the relationship between maximum answer length (`max_tokens`) and mo
 
 <table>
   <tr>
-    <th>Decode Length</th>
+    <th>max tokens</th>
     <th>16K</th>
     <th>32K</th>
     <th>64K</th>
