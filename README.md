@@ -5,7 +5,7 @@ We release ​**PCL-Reasoner-V1**​, a model trained based on ​**Qwen2.5-32B-
 
 We have fully open-sourced the model weights, dataset and training code. Follow the tutorial below to deploy and explore post-training!  
 
-![eval_results](images/README/eval_results.png)  
+![eval_results](eval_results.png)  
 
 ## Development Guide  
 
