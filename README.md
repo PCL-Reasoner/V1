@@ -264,7 +264,7 @@ The sampling hyperparameters used are listed below:
 | `chat_template`| `./pcl_reasoner_v1/eval/am_thinking.jinja` |  
 
 #### Evaluation Results on AIME24/25  
-The table below compares mainstream models on the AIME24 and AIME25 benchmarks. For accuracy, we used the ​**Avg@32 metric**​ (averaging 32 sampling attempts per query)[1](@ref):  
+The table below compares mainstream models on the AIME24 and AIME25 benchmarks. For accuracy, we used the ​**Avg@32 metric**​ (averaging 32 sampling attempts per query):  
 
 
 
