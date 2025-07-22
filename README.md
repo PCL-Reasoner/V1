@@ -267,14 +267,7 @@ The sampling hyperparameters used are listed below:
 #### Evaluation Results on AIME24/25  
 The table below compares mainstream models on the AIME24 and AIME25 benchmarks. For accuracy, we used the ​**Avg@32 metric**​ (averaging 32 sampling attempts per query)[1](@ref):  
 
-<!-- 表格基础样式（可选添加） -->
 
-<style>
-  table { border-collapse: collapse; width: 100%; margin-left: auto;margin-right: auto;}
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-</style>
-
-<!-- 表格主体 -->
 
 <table>
   <tr>
