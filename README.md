@@ -173,7 +173,7 @@ Users can download pre-trained weights from HuggingFace:
 #### 3.2 Training Configuration
 *(Only frequently modified configurations are shown. Full config: `pcl_reasoner_v1/config/finetune_pcl_reasoner_v1_32k.yaml`)*
 
-​**Basic Configuration:​**​
+​***Basic Configuration:​**​*
 ```yaml
 run_mode: 'finetune'               # Training mode: fine-tuning
 load_checkpoint: '/path/to/Qwen-32B-base/'  # Weight file path
@@ -243,6 +243,7 @@ Then, launch the fine-tuning task using:
 bash run_pcl_reasoner_v1_finetune.sh 0
 ```
 > *（Note: When launching on multiple nodes, specify node_rank (e.g., 0 for the first node).）*
+
 After starting the task, monitor the runtime logs with:
 ```
 tail -f /path/to/log/worker_127.log
@@ -265,11 +266,6 @@ The sampling hyperparameters used are listed below:
 
 #### Evaluation Results on AIME24/25  
 The table below compares mainstream models on the AIME24 and AIME25 benchmarks. For accuracy, we used the ​**Avg@32 metric**​ (averaging 32 sampling attempts per query)[1](@ref):  
-
-<style>
-  table { border-collapse: collapse; width: 100%; margin: auto; }
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-</style>
 
 <!-- 表格基础样式（可选添加） -->
 
@@ -358,11 +354,6 @@ The table below compares mainstream models on the AIME24 and AIME25 benchmarks. 
 
 #### Impact of Answer Length on Accuracy  
 We analyzed the relationship between maximum answer length (`max_tokens`) and model accuracy. Due to results listed below, we find that on AIME24 which is relatively simpler, decode length of 64K​ are sufficient to achieve peak accuracy of 85.7%. In contrast, AIME25 which is relatively harder requires ​128K tokens​ to reach optimal performance (84.2%):
-
-<style>
-  table { border-collapse: collapse; width: 100%; margin-left: auto;margin-right: auto;}
-  th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-</style>
 
 <table>
   <tr>
