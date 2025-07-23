@@ -7,6 +7,10 @@ We have fully open-sourced the model weights, dataset and training code. Follow 
 
 ![eval_results](eval_results.png)  
 
+**HuggingFace**: https://huggingface.co/PCL-Reasoner/V1
+
+**ModelScope**: https://www.modelscope.cn/models/pclreasoner/PCL-Reasoner-V1
+
 ## Development Guide  
 
 ### 1. Model Files  
